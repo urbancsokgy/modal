@@ -22,7 +22,9 @@ header{
     background-color: rgb(27, 26, 24);
 }
 header button{
-
+background-color: orange;
+border: 2px solid rgb(221, 103, 73);
+border-radius: 30%;
 }
 header img{
     
@@ -94,7 +96,7 @@ height: 100vh;
     
 #test{
     color:black;
-    
+
     font-weight: 700;
    margin: 0 auto;
    width: 100%;
