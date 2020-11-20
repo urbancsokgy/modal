@@ -22,7 +22,7 @@ header{
     background-color: rgb(27, 26, 24);
 }
 header button{
-    
+
 }
 header img{
     
@@ -93,7 +93,8 @@ height: 100vh;
 }
     
 #test{
-    color:black
+    color:black;
+    
     font-weight: 700;
    margin: 0 auto;
    width: 100%;
