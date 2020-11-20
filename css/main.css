@@ -192,3 +192,17 @@ text-overflow: ellipsis;
     opacity: 1;
     
 }
+/* media media media media media */
+@media screen and (max-width: 500px) {
+ 
+    .modal__wrap{box-sizing: border-box;}
+    .modal_content{
+        font-size: .8rem;
+        box-sizing: border-box;
+        position: absolute;
+        width:  100vw;
+        left: 0px;
+        margin: 0;    
+    }
+    
+    }
