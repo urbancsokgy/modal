@@ -116,7 +116,8 @@ footer{
 /* Modal*/
 /*modal modal modal modal modal*/
 .modal{
-    display:none;
+    /* display:none; */
+    z-index: -2;
     position: absolute;
     box-sizing: border-box;
     top: 0;
@@ -125,7 +126,7 @@ footer{
     height: 100%;
     background-color: rgba(0, 0, 0, .8);
     opacity: .2;
-    transition: opacity 4s ease-in;
+    transition: opacity .4s ease-in;
 }
     .modal_content{
         padding: 1rem;
@@ -160,7 +161,7 @@ text-overflow: ellipsis;
 .modal__img{
     display: block;
     max-width: 100%;
-    max-height: 30%;
+    min-height: 30%;
     margin: 0 auto;
     box-shadow: 0px 0px 5px 2px  white;
     border: 1px solid red;
@@ -185,11 +186,16 @@ text-overflow: ellipsis;
 }
 
 .hidden{
-    display: none;
+    /* display: none; */
+    z-index: -2;
+    opacity: .2;
+    transition: all .3s ease-out;
 }
 .visible{
-    display: inherit;
+    /* display: inherit; */
+    z-index: 3;
     opacity: 1;
+    transition: all .3s ease-in;
     
 }
 /* media media media media media */
